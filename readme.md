@@ -34,3 +34,4 @@ Pl/0编译器使用说明
 <prog>：程序 ；<block>：块、程序体 ；<condecl>：常量说明 ；<const>：常量；<vardecl>：变量说明 ；<proc>：分程序 ； <body>：复合语句 ；<statement>：语句；<exp>：表达式 ；<lexp>：条件 ；<term>：项 ； <factor>：因子 ；<aop>：加法运算符；<mop>：乘法运算符； <lop>：关系运算符。
 
 3.PL/0编译程序的结构图
+!image(https://github.com/Wlhang/pl-0-compiler/blob/master/picture/%E6%8C%87%E4%BB%A4%E5%8A%9F%E8%83%BD%E8%A1%A8.png)
