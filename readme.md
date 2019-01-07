@@ -1,4 +1,4 @@
-### Pl/0编译器使用说明
+# Pl/0编译器使用说明
 
 参考：https://github.com/King-Hell/pl-0-compiler-vm
 改进：增加报错和子程序传参，修改部分语法bug，如分号（;）只因出现在复合语句中间，end前一句应该没有
@@ -7,7 +7,7 @@
 	main.py为入口主程序，4.txt和test.txt为测试文件，getsym.py为词法分析，block.py为语法分析和语义分析（同时生产中间代码），symbol.py为类型号设置，table.py为符号表。
 
 ## 2.PL/0语言的BNF描述（扩充的巴克斯范式表示法）
-<prog> → program <id>；<block>  
+<prog> → program /<id>；<block>  
 <block> → [<condecl>][<vardecl>][<proc>]<body>  
 <condecl> → const <const>{,<const>};  
 <const> → <id>:=<integer>  
